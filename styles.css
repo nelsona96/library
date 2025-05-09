@@ -53,7 +53,13 @@ NAV BAR
 
 nav {
     height: 80px;
+    padding: 8px 0;
+    background-color: #fff;
     display: flex;
+}
+
+hr {
+    border-color: #7342d6;
 }
 
 p {
