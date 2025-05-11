@@ -15,7 +15,9 @@
     <section id="landing">
       <nav>
         <div class="nav__container">
-          <img class="logo" src="./assets/Library.svg" alt="" />
+          <figure class="logo__wrapper">
+            <img class="logo" src="./assets/Library.svg" alt="" />
+          </figure>
           <ul class="nav__links">
             <li>
               <a href="#" class="nav__link">Home</a>
@@ -35,14 +37,16 @@
           </button>
         </div>
       </nav>
-      
+
       <div class="menu__backdrop">
         <ul class="menu__links">
           <li class="menu__list">
             <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
           </li>
           <li class="menu__list">
-            <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
+            <a href="#features" class="menu__link" onclick="closeMenu()"
+              >Books</a
+            >
           </li>
           <li class="menu__list">
             <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
